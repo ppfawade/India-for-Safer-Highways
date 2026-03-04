@@ -17,8 +17,8 @@ export default function HowItWorks() {
           <div className="relative">
             <div className="absolute inset-0 bg-blue-100 rounded-full blur-3xl opacity-30"></div>
             <div className="relative bg-white p-8 rounded-2xl shadow-lg border border-gray-100 text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
-                1
+              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-6">
+                1000
               </div>
               <h3 className="text-xl font-bold mb-4">You Start with 1000 Points</h3>
               <p className="text-gray-600">
@@ -83,16 +83,16 @@ export default function HowItWorks() {
                 </defs>
                 
                 {/* Timeline */}
-                <line x1="50" y1="200" x2="350" y2="200" stroke="#4b5563" strokeWidth="2" />
-                <circle cx="50" cy="200" r="4" fill="#fbbf24" />
-                <text x="50" y="225" textAnchor="middle" fill="#9ca3af" fontSize="12">0m</text>
+                <line x1="60" y1="200" x2="340" y2="200" stroke="#4b5563" strokeWidth="2" />
+                <circle cx="60" cy="200" r="4" fill="#fbbf24" />
+                <text x="60" y="225" textAnchor="middle" fill="#9ca3af" fontSize="12">0m</text>
                 <circle cx="200" cy="200" r="4" fill="#fbbf24" />
                 <text x="200" y="225" textAnchor="middle" fill="#9ca3af" fontSize="12">30m</text>
-                <circle cx="350" cy="200" r="4" fill="#fbbf24" />
-                <text x="350" y="225" textAnchor="middle" fill="#9ca3af" fontSize="12">60m</text>
+                <circle cx="340" cy="200" r="4" fill="#fbbf24" />
+                <text x="340" y="225" textAnchor="middle" fill="#9ca3af" fontSize="12">60m</text>
 
                 {/* Step 1: Violation */}
-                <g transform="translate(50, 100)">
+                <g transform="translate(60, 100)">
                   <circle cx="0" cy="0" r="30" fill="#ef4444" opacity="0.2" />
                   <circle cx="0" cy="0" r="25" fill="#ef4444" opacity="0.1" />
                   <rect x="-15" y="-10" width="30" height="20" rx="4" fill="#ef4444" />
@@ -103,7 +103,7 @@ export default function HowItWorks() {
                 </g>
 
                 {/* Arrow 1 */}
-                <path d="M 90 100 L 160 100" stroke="#fbbf24" strokeWidth="2" strokeDasharray="4 4" markerEnd="url(#arrowhead)" />
+                <path d="M 100 100 L 160 100" stroke="#fbbf24" strokeWidth="2" strokeDasharray="4 4" markerEnd="url(#arrowhead)" />
 
                 {/* Step 2: Mobile Court */}
                 <g transform="translate(200, 100)">
@@ -115,15 +115,16 @@ export default function HowItWorks() {
                 </g>
 
                 {/* Arrow 2 */}
-                <path d="M 240 100 L 310 100" stroke="#fbbf24" strokeWidth="2" strokeDasharray="4 4" markerEnd="url(#arrowhead)" />
+                <path d="M 240 100 L 300 100" stroke="#fbbf24" strokeWidth="2" strokeDasharray="4 4" markerEnd="url(#arrowhead)" />
 
                 {/* Step 3: Resolution */}
-                <g transform="translate(350, 100)">
+                <g transform="translate(340, 100)">
                   <circle cx="0" cy="0" r="30" fill="#10b981" opacity="0.2" />
                   <circle cx="0" cy="0" r="25" fill="#10b981" opacity="0.1" />
                   <path d="M -10 0 L -3 7 L 10 -7" stroke="#10b981" strokeWidth="4" fill="none" />
                   <text x="0" y="50" textAnchor="middle" fill="#ffffff" fontSize="12" fontWeight="bold">Resolved</text>
-                  <text x="0" y="65" textAnchor="middle" fill="#9ca3af" fontSize="10">Fine Paid / Points Deducted</text>
+                  <text x="0" y="65" textAnchor="middle" fill="#9ca3af" fontSize="10">Fine Paid /</text>
+                  <text x="0" y="77" textAnchor="middle" fill="#9ca3af" fontSize="10">Points Deducted</text>
                 </g>
               </svg>
             </div>

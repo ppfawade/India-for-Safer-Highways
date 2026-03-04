@@ -13,6 +13,9 @@ export default function AboutAuthor() {
             <p className="text-lg text-gray-600 mb-6">
               This concept was developed by <strong>Prashant Fawade</strong>, an advocate for safer infrastructure and smarter governance. It combines engineering principles with behavioral economics to solve India&apos;s unique road safety challenges.
             </p>
+            <p className="text-sm text-gray-500 italic mb-6">
+              Note: This proposal and website were developed with the assistance of Artificial Intelligence.
+            </p>
             <a href="https://ppfawade.blogspot.com/2025/10/road-map-to-safer-national-highways.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 font-semibold hover:underline">
               Read the original article &rarr;
             </a>

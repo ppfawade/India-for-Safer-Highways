@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Safer Highways India
 
-# Run and deploy your AI Studio app
+A comprehensive digital advocacy platform and policy proposal aimed at transforming India's National Highways into safer, world-class infrastructure. This project outlines a 2-year roadmap focused on a "Vehicles-First" doctrine, rapid justice through 1-Hour Highway Courts, and strict engineering accountability.
 
-This contains everything you need to run your app locally.
+**Live Demo:** [https://safer-highways-india.vercel.app/](https://safer-highways-india.vercel.app/)
 
-View your app in AI Studio: https://ai.studio/apps/add6a98b-7b79-43b2-a410-145fa384bd81
+## About the Project
 
-## Run Locally
+India loses over 1.68 lakh lives annually on its roads. This project proposes a systemic overhaul rather than piecemeal solutions. The core proposal, "1000 Points: India’s Roadmap to Safer Highways," was conceptualized by **Prashant Fawade**.
 
-**Prerequisites:**  Node.js
+This website serves as a public awareness tool, featuring:
+- An interactive breakdown of the 3-pillar solution.
+- Visual explanations of the proposed 1-Hour Highway Court system.
+- A downloadable, print-ready policy brief for advocacy.
+- A complete social media campaign kit.
 
+**Note:** The content and structure of this proposal were developed with the assistance of Artificial Intelligence, leveraging large language models to refine the policy framework and generate the web application code.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Tech Stack
+
+This project is a modern web application built with:
+
+- **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Deployment:** [Vercel](https://vercel.com/)
+
+## Key Features
+
+- **Responsive Design:** Fully optimized for mobile and desktop viewing.
+- **Print Optimization:** The `/policy-brief` route includes specific CSS media queries to ensure the document prints perfectly as a PDF.
+- **SVG Infographics:** Custom-coded, responsive SVGs to visualize complex processes like the 1-Hour Court timeline.
+- **Performance:** Static site generation (SSG) for fast load times and SEO benefits.
+
+## Author
+
+**Prashant Fawade**
+Advocate for Safer Infrastructure & Smarter Governance.
+[Read the original article](https://ppfawade.blogspot.com/2025/10/road-map-to-safer-national-highways.html)
+
+---
+*Developed with AI assistance.*
